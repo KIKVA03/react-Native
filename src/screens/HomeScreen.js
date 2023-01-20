@@ -15,7 +15,10 @@ const HomeScreen = ({ navigation }) => {
                     title="Go TO Components Demo"
                 />
             </View>
-            <Button title="Go To List Demo" onPress={() => navigation.push("List")} />
+            <View style={{ marginBottom: 20 }}>
+                <Button title="Go To List Demo" onPress={() => navigation.push("List")} />
+            </View>
+            <Button title="Go To List Demo" onPress={() => navigation.push("imagesScreen")} />
         </View>
     );
 };
